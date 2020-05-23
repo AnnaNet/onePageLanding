@@ -8,20 +8,16 @@
   justify-content: space-between;
 }
 
-.imgCenter {
-  display: flex;
-  align-items: center;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  top: 65px;
-  justify-content: center;
-}
-
 .mainPict {
   position: absolute;
   background-repeat: no-repeat;
   width: 100%;
   height: 800px;
+}
+
+.colC {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
 }

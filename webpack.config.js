@@ -16,7 +16,12 @@ module.exports = {
     rules: [
       {
         test: /\.(css|scss)$/,
-        use: ['style-loader', MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader']
+        use: [
+          'style-loader',
+          MiniCssExtractPlugin.loader,
+          'css-loader',
+          'sass-loader'
+        ]
       },
       {
         test: /\.js$/,
